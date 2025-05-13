@@ -17,5 +17,27 @@ Before getting started, ensure you're familiar with the following:
 
 ## 📦 Project Structure
 
+```
+├── auth-mfe
+├── cart-mfe
+├── category-mfe
+├── home-mfe
+├── root-mfe
+├── ui-utility
+├── store-utility
+├── package.json
+```
 
-## Install Dependencies
+## 🚀 Getting Started
+
+1. **Install Dependencies**
+
+```bash
+
+
+
+1. **Install Dependencies**
+
+```bash
+git clone https://github.com/your-username/green-mfe-app.git
+cd green-mfe-app
