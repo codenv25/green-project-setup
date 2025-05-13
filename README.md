@@ -30,14 +30,33 @@ Before getting started, ensure you're familiar with the following:
 
 ## 🚀 Getting Started
 
-1. **Install Dependencies**
+**1. Install Dependencies**
 
 ```bash
+# From the root directory
+npm install
 
+# Then go into each microfrontend and utility package and install separately
+cd root-mfe && npm install && cd ..
+cd home-mfe && npm install && cd ..
+cd category-mfe && npm install && cd ..
+cd cart-mfe && npm install && cd ..
+cd auth-mfe && npm install && cd ..
+cd store-utility && npm install && cd ..
+cd ui-utility && npm install && cd ..
+```
 
+**2. Run All Microfrontends**
 
-1. **Install Dependencies**
+To start all microfrontends at once, run the following command from the root directory:
 
 ```bash
-git clone https://github.com/your-username/green-mfe-app.git
-cd green-mfe-app
+npm run start:all
+```
+
+**3. View the Application**
+
+Once all micro frontends are running, open your browser and navigate to:
+```bash
+http://localhost:9000
+```
